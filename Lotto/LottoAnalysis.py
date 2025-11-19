@@ -6,7 +6,8 @@ print(current_date)
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 # Input the list of numbers you want to check here
-chosen_numbers = [[]]
+chosen_numbers = [[1, 2, 3, 4, 5, 8], [37, 40, 41, 43, 47, 1], [4, 12, 26, 31, 44, 1], [8, 10, 24, 25, 27, 2], [1, 6, 12, 24, 41, 3], [
+    27, 29, 31, 33, 45, 17], [2, 4, 5, 24, 25, 24], [4, 15, 26, 42, 47, 17], [7, 18, 22, 35, 40, 20], [8, 22, 38, 41, 45, 25], [4, 23, 24, 25, 29, 5]]
 
 
 # Gets the json file from the url and parse's it into python data types
